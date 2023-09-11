@@ -80,8 +80,8 @@
       collapsed: true, // collapse search control at startup
       autoCollapse: false, // collapse search control after submit(on button or on tips if enabled tipAutoSubmit)
       autoCollapseTime: 1200, // delay for autoclosing alert and collapse after blur
-      textErr: 'Location not found', // error message
-      textCancel: 'Cancel', // title in cancel button
+      textErr: 'No funciona la localización', // error message
+      textCancel: 'Cancelar', // title in cancel button
       textPlaceholder: 'Buscar...', // placeholder value
       hideMarkerOnCollapse: false, // remove circle and marker on search control collapsed
       position: 'topleft',
