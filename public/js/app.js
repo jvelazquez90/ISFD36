@@ -7,7 +7,7 @@ var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={
       subdomains:['mt0','mt1','mt2','mt3']}),
     OpenStreetMap = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
-      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">Geosynec</a>'});
+      attribution: '&copy; <a href="www.linkedin.com/in/jorge-velazquez-fernandez">Geosynec</a>'});
 
 var Mapa_base = {
     "OpenStreetMap": OpenStreetMap,
