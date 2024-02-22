@@ -1,13 +1,15 @@
 // Defino mapas base
 var googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
       maxZoom: 20,
-      subdomains:['mt0','mt1','mt2','mt3']}),
+      subdomains:['mt0','mt1','mt2','mt3'],
+      attribution: '&copy; <a href="https://www.linkedin.com/in/jorge-velazquez-fernandez target="_blank">Jorge Velazquez</a>'}),
     googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
       maxZoom: 20,
-      subdomains:['mt0','mt1','mt2','mt3']}),
+      subdomains:['mt0','mt1','mt2','mt3'],
+      attribution: '&copy; <a href="https://www.linkedin.com/in/jorge-velazquez-fernandez target="_blank">Jorge Velazquez</a>'}),
     OpenStreetMap = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 19,
-      attribution: '&copy; <a href="www.linkedin.com/in/jorge-velazquez-fernandez">Geosynec</a>'});
+      attribution: '&copy; <a href="https://www.linkedin.com/in/jorge-velazquez-fernandez" target="_blank">Jorge Velazquez</a>'});
 
 var Mapa_base = {
     "OpenStreetMap": OpenStreetMap,
